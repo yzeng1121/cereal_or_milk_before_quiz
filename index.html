@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Cereal or Milk (Taylor's Version)</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Do You Put Milk Before Cereal Or Cereal Before Milk? (Taylor's Version)</h1>
+		<p>Based on your answer of which two of my favorite Taylor Swift songs you choose, you'll see whether I think you put cereal before milk or milk before cereal.</p>
+
+    <p>Make sure to only choose <b>one</b> answer!</p>
+	</header>
+
+	<main>
+
+		<h2>august or mirrorball?</h2>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="assets/august.jpg" alt="A field of sunflowers with the sun setting on the horizon.">
+        <br>
+        <button id="q1a1" onclick="disable(this)">august</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/mirrorball.jpg" alt="A mirrorball reflecting light off in a dark purple room.">
+        <br>
+        <button id="q1a2" onclick="disable(this)">mirrorball</button>
+      </div>
+
+    </div> 
+    
+    <h2>Our Song or Picture To Burn?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/our_song.jpg" alt="A woman sitting down holding a guitar preparing to sing into a microphone.">
+        <br>
+        <button id="q2a1" onclick="disable(this)">Our Song</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/picture_to_burn.jpg" alt="A zoom-up of a burning piece of paper.">
+        <br>
+        <button id="q2a2" onclick="disable(this)">Picture To Burn</button>
+      </div>
+
+    </div> 
+    
+    <h2>Blank Space or Shake It Off?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/blank_space.jpg" alt="Blank pieces of white paper stacked over and across each other on a white background.">
+        <br>
+        <button id="q3a1" onclick="disable(this)">Blank Space</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/shake_it_off.jpg" alt="A small white dog shaking itself off standing outside on pavement.">
+        <br>
+        <button id="q3a2" onclick="disable(this)">Shake It Off</button>
+      </div>
+
+    </div> 
+
+    <h2>Fearless or Hey Stephen?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/fearless.jpg" alt="An overshot of a person standing on a thin wooden-plank bridge with the ocean beneath them.">
+        <br>
+        <button id="q4a1" onclick="disable(this)">Fearless</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/hey_stephen.jpg" alt="A dark brick wall with a neon sign of the words “Hey Hey, Love Ya!”.">
+        <br>
+        <button id="q4a2" onclick="disable(this)">Hey Stephen</button>
+      </div>
+
+    </div> 
+
+    <h2>Style or Wildest Dreams?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/style.jpg" alt="An array of scattered pictures of clothing, accessories, and outfits.">
+        <br>
+        <button id="q5a1" onclick="disable(this)">Style</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/wildest_dreams.jpg" alt="A black wall with the words “Dream Big” written on it in cream color.">
+        <br>
+        <button id="q5a2" onclick="disable(this)">Wildest Dreams</button>
+      </div>
+
+    </div> 
+
+    <h2>Maroon or Anti-Hero?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/maroon.jpg" alt="A multi-shade maroon-colored background.">
+        <br>
+        <button id="q6a1" onclick="disable(this)">Maroon</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/anti-hero.jpg" alt="Batman frowning alongside a grinning Joker, in black and white.">
+        <br>
+        <button id="q6a2" onclick="disable(this)">Anti-Hero</button>
+      </div>
+
+    </div> 
+
+    <h2>Speak Now or Back To December?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/speak_now.jpg" alt="A close-up of a microphone with the background blurred.">
+        <br>
+        <button id="q7a1" onclick="disable(this)">Speak Now</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/back_to_december.jpg" alt="A woman dressed in an orange-brown coat with gloves and a hat on standing in front of a snowy field.">
+        <br>
+        <button id="q7a2" onclick="disable(this)">Back To December</button>
+      </div>
+
+    </div> 
+    
+    <h2 id="result">Your result is...</h2>
+    <p id="reaction"></p>
+
+    <div class="end">
+    <button id ="restart">Restart Quiz</button>
+    </div>
+    
+  </main>
+  </body>
+</html>
